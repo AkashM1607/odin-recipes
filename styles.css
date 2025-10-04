@@ -1,0 +1,27 @@
+.headcontainer{
+    border:2px solid black;
+    background-color:yellow;
+    margin:20px;
+}
+
+.header1 {
+    width:200px;
+    text-align:center;
+    background-color:lightblue;
+    margin:20px auto;
+}
+
+.listcontainer{
+    background-color:lightblue;
+    border:1px solid black;
+}
+
+/* für margin:auto zentrieren braucht man ein width wert */
+/* Ohne width wert kann man text-align benutzen */
+/* Beides ist aber nur in display:block möglich nicht inline */
+/* Bei inline muss man mit margin rumspielen um zu zentrieren. */
+/* Bei list macht sinn mit width und margin weil sonst nur der text aligned wird nicht die stichpunkt punkte */
+.first,.second,.third{
+    width:200px;
+    margin: 0 auto;
+}
